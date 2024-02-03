@@ -1,7 +1,7 @@
 n = int(input())
+h = [int(x) for x in input().split(' ')]
+b = [int(x) for x in input().split(' ')]
 area = 0
-h = list(map(int, input().split()))
-w = list(map(int, input().split()))
 
 for i in range(n):
     area += (h[i] + h[i + 1])/2 * w[i]
